@@ -9,8 +9,5 @@ More read, and More protect eyes!
 
 If you like this theme, please praise a star, thank you for your attention！
 
- ![](https://raw.githubusercontent.com/daodaolee/typora-scrolls/main/snapshots/1.png)
-![](https://raw.githubusercontent.com/daodaolee/typora-scrolls/main/snapshots/2.png)
-   ![](https://raw.githubusercontent.com/daodaolee/typora-scrolls/main/snapshots/3.png)
+![](https://raw.githubusercontent.com/daodaolee/typora-scrolls/main/snapshots/1.png)
 
-  ![](https://raw.githubusercontent.com/daodaolee/typora-scrolls/main/snapshots/4.png)
