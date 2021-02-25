@@ -20,8 +20,8 @@ If you like this theme, please praise a star, thank you for your attention！
 4. ModeSelect 
    1. If you want to use lightMode, Copy the file `scrolls` and the cssFile `scrolls.css` to your Typora theme library.
    2. If you want to use darkMode, Copy the file `scrolls-dark` and the cssFile `scrolls-dark.css` to your Typora theme library.
-   3. Setting `scrolls` to Light theme, and setting `scrolls`-dark to Dark theme.
-5. Restart Typora and choose `scrolls` or `Scrolls-dark` from the theme menu.
+   3. Setting `scrolls` to Light theme, and setting `scrolls-dark` to Dark theme.
+5. Restart Typora and choose `scrolls` or `scrolls-dark` from the theme menu.
 
 # Snapshots
 
