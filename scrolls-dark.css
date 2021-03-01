@@ -78,18 +78,87 @@ body {
     margin-top: 30px;
 }
 
+#write ol{
+    list-style-type: decimal;
+    color:#73B8E8;
+    font-weight: bold;
+}
+#write ol p{
+    color:#FEF7F0;
+    font-weight: normal;
+}
+#write ol ol{
+    list-style-type: lower-alpha
+}
+
+#write ul{
+    list-style-type: disc;
+    color:#73B8E8;
+    font-weight: bold;
+}
+#write ul p{
+    color:#FEF7F0;
+    font-size:14px;
+    font-weight: normal;
+}
+#write ul ul{
+    list-style-type: circle;
+    color:#73B8E8;
+    font-weight: bold;
+}
+
+#write ol{
+    padding-left: 40px;
+    margin: .5rem 0;
+}
+
+#write ul {
+    padding-left: 30px;
+    margin: .5rem 0;
+}
+
+
+
+hr {
+    background-color: rgba(213, 163, 11, 0.57);
+    border: 0 none;
+    box-sizing: content-box;
+    height: 2px;
+    margin: 16px 0;
+    overflow: hidden;
+    padding: 0;
+}
+
+li p.first {
+    display: inline-block;
+}
+
+
+ul:first-child,
+ol:first-child {
+    margin-top: 0;
+}
+
+ul:last-child,
+ol:last-child {
+    margin-bottom: 0;
+}
+
+/* 
 #write > ul.ul-list {
     list-style: none !important;
 }
 #write > ul.ul-list li.md-list-item{
     position: relative;
 }
+
+
 #write > ul.ul-list li.md-list-item:before{
     content:"";
     width:9px;
     height:9px;
     border-radius: 50%;
-    /* background: #fef7f0; */
+    /* background: #fef7f0;
     background: #9daebf;
     position: absolute;
     left:-20px;
@@ -192,7 +261,7 @@ body {
     font-weight: bold;
     position: absolute;
     left: -83px;
-}
+} */
 
 
 input[type=checkbox]{
@@ -481,59 +550,6 @@ table {
     margin: 0.8em 0;
 }
 
-#write ol,
-#write ul {
-    padding-left: 2rem;
-    margin: .5rem 0;
-}
-
-#write ol>li,
-#write ul>li {
-    /* color: #7A766A; */
-}
-
-#write ol>li>*,
-#write ul>li>* {
-    /* color: #444444; */
-}
-
-#write ol>li>*:not(ol):not(ul),
-#write ul>li>*:not(ol):not(ul) {
-    padding-left: .25rem;
-}
-
-#write ul {
-    list-style-type: disc;
-}
-
-hr {
-    background-color: #9EAEBF;
-    border: 0 none;
-    box-sizing: content-box;
-    height: 2px;
-    margin: 16px 0;
-    overflow: hidden;
-    padding: 0;
-}
-
-li p.first {
-    display: inline-block;
-}
-
-ul,
-ol {
-    padding-left: 30px;
-}
-
-ul:first-child,
-ol:first-child {
-    margin-top: 0;
-}
-
-ul:last-child,
-ol:last-child {
-    margin-bottom: 0;
-}
 mark{
     /* background: #96e197;; */
     padding:0 4px;
